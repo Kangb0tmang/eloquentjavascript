@@ -1,0 +1,1 @@
+Exercises taken from [https://eloquentjavascript.net/index.html](https://eloquentjavascript.net/index.html)
