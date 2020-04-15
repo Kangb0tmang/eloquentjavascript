@@ -40,7 +40,7 @@ for (let num = 1; num <= 100; num++) {
   } else if (num % 3 == 0) { // numbers divisible by 3
     console.log("Fizz");
   } else {
-    console.log(num)
+    console.log(num);
   }
 }
 
@@ -50,11 +50,11 @@ for (let num = 1; num <= 100; num++) {
     // Can also do if (num % 15 == 0)
     console.log("FizzBuzz");
   } else if (num % 3 == 0) { // numbers divisible by 3
-    console.log("Fizz")
+    console.log("Fizz");
   } else if (num % 5 == 0) { // numbers divisible by 5
     console.log("Buzz");
   } else {
-    console.log(num)
+    console.log(num);
   }
 }
 
@@ -110,3 +110,22 @@ for (let x = 0; x <= size; x++) {
   chessboard += '\n';
 }
 console.log(chessboard);
+
+/* Solution:
+let size = 8;
+
+let board = "";
+
+for (let y = 0; y < size; y++) {
+  for (let x = 0; x < size; x++) {
+    if ((x + y) % 2 == 0) {
+      board += " ";
+    } else {
+      board += "#";
+    }
+  }
+  board += "\n";
+}
+
+console.log(board);
+*/
